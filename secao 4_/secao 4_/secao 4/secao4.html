@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção 4 - Captura de Leads</title>
+    <link rel="stylesheet" href="CSS/secao4.css">
+    <!-- link da fonte Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <script src="JS/scripts.js"> </script>
+</head>
+<body>
+    <div class="texto-container">
+        <div class="texto">
+            <p class="titulo">Tecnologia imersiva da Raia Tech</p>
+            <p>Com a realidade aumentada da Raia Tech, os alunos podem explorar conceitos complexos de maneira mais interativa e prática, permitindo que eles aprendam mais rapidamente. Ao criar uma experiência imersiva, os alunos podem entender conceitos difíceis de uma maneira mais significativa, o que pode ajudá-los a reter informações de maneira mais eficiente.</p>
+        </div>
+        <div class="texto">
+            <p class="titulo">Inovação</p>
+            <p>Ao utilizar a realidade aumentada e gamificação em sua estratégia de ensino, os professores podem se destacar da concorrência e serem vistos como inovadores e modernos.</p>
+        </div>
+        <div class="texto">
+            <p class="titulo">Aprendizagem Prática</p>
+            <p>A realidade aumentada pode ser usada para criar experiências de aprendizado prático, como simulações e atividades que permitem que os alunos experimentem conceitos de maneira mais concreta e visual</p>
+        </div>
+    </div>    
+    <div class="formulario">
+    <p>Seja o primeiro a receber nosso código promocional para conhecer a plataforma no dia do lançamento.</p>
+        <form action="#" onsubmit="return verificarRobo()">
+            <label for="nome" class="info-pessoal">Nome Completo:</label><br>
+            <input type="text" id="nome" placeholder="Digite aqui..." required><br>
+            <label for="email" class="info-pessoal">Email:</label><br>
+            <input type="email" id="email" placeholder="nome@email.com" required><br>
+            <br>
+            <input type="checkbox" id="receber_comunicoes"><label> Concordo em receber comunicações de acordo com os meus interesses.</label><br>
+            <input type="checkbox" id="politica_privacidade" required><label>Ao informar meus dados, concordo com a <a href="#">Política de Privacidade</a></label>
+            <div id="verificacao-container">
+                <input type="checkbox" id="verificacao-botao">
+                <label for="verificação-botao" id="verificacao-texto" required>Confirme que você não é um robô</label>
+            </div>
+            <button type="submit" id="codigo-promocional">Receber Meu Código Promocional</button>
+        </form>
+    </div>
+   
+</body>
+</html>
